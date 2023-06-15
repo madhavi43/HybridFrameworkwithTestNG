@@ -21,6 +21,7 @@ public class SearchTest extends BaseClass{
 	@BeforeMethod
 	public void setUp()
 	{     driver=initializeBrowserandOpenApplicationUrl(prop.getProperty("browser"));
+	System.out.println("browser");
 		  
 	}
 	
